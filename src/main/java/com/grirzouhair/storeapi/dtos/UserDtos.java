@@ -1,12 +1,10 @@
 package com.grirzouhair.storeapi.dtos;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@AllArgsConstructor
 @NoArgsConstructor
 @Getter
+@Setter
 public class UserDtos {
     private Long id;
     private String name;
